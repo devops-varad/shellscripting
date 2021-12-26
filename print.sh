@@ -24,5 +24,5 @@ echo -e "\e[32mThis is Green Colour \e[0m"
 echo -e "\e[33mThis is Yellow Colour \e[0m"
 echo -e "\e[34mThis is Blue Colour \e[0m"
 echo -e "\e[35mThis is Megenta Colour \e[0m"
-echo -e "\e[36mThis is Cyan Colour \e[0m"
+echo -e "\e[36m5mThis is Cyan Colour \e[0m"
 
