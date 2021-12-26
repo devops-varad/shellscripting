@@ -19,7 +19,7 @@ echo Hello world
 
 echo colour code examples are as below
 
-echo -e "\e[31mThis is Red Colour \e[0m"
+echo -e "\e[31mThis is Red Colour\e[0m"
 echo -e "\e[32mThis is Green Colour \e[0m"
 echo -e "\e[33mThis is Yellow Colour \e[0m"
 echo -e "\e[34mThis is Blue Colour \e[0m"
