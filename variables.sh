@@ -7,8 +7,8 @@ c=true
 echo value of a=$a
 echo value of a= ${a}USD
 #Variables will not be hard coded and we need a dynamic function
-DATE=27th-Dec-2021
-echo date is $(DATE)
+DAT=27th-Dec-2021
+echo date is ${DAT}
 #Below value is an example of getting dynamic data
 DATE=$(date +%F)
 echo Now the date is ${DATE}
