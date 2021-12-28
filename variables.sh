@@ -15,5 +15,5 @@ echo Now the date is ${DATE}
 ##Arithmetic expression
 ADD=$((10+5))
 echo Addion of Arithmetic value is ${ADD}
-echo " my os histfile size is ${HISTORYSIZE}"
+echo " my os desktop session name is ${DESKTOP_SESSION}"
 echo "Local variable AB=${AB}"
