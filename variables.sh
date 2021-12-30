@@ -16,4 +16,4 @@ echo Now the date is ${DATE}
 ADD=$((10+5))
 echo Addion of Arithmetic value is ${ADD}
 echo " my os desktop session name is ${DESKTOP_SESSION}"
-echo "Local variable AB=${AB}"
+echo "Local variable AB=${AB)}"
