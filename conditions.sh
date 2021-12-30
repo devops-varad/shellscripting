@@ -42,7 +42,7 @@
       # Ex: so many are there, if required we can refer the documents
 # Example scripts
 read -p 'enter your age: ' age
-if [-z $age ]; then
+if [-z "$age" ]; then
   echo "Input is missing - You haven't entered any value "
 fi
 if [ "${age}" -lt 18 ]; then
