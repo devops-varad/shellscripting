@@ -46,7 +46,7 @@ if [ -z "$age" ]; then
   echo "Input is missing - You haven't entered any value "
   exit
 fi
-if [ "${age}" -lt 18 ]; then
+if [ ! -z "{ $age}" -a "${age}" -lt 18 ]; then ##Here generally z verify the value is empty but ! -Z opp reaction, means  not empty
    echo " *** you are a Minor ***"
 elif
    [ "${age}" -gt 60 ]; then
@@ -54,6 +54,13 @@ elif
 else
    echo " &&& you are a Major &&&"
 fi
+## NOTE:When you use variables in expressions of "if" statement, always use double quotes them
+
+# Some scanario,we need to combine two expressions. [expression1 expression2]
+## 1.Logical AND
+# Syntax: logical AND operator by using -a . NOTE: TRUE if both expressions are true
+## 2.Logical OR
+# Syntax: logical OR operator by using -o . NOTE: TRUE if any expressions is true
 
 
 
