@@ -44,6 +44,7 @@
 read -p 'enter your age: ' age
 if [ -z "$age" ]; then
   echo "Input is missing - You haven't entered any value "
+  exit
 fi
 if [ "${age}" -lt 18 ]; then
    echo " *** you are a Minor ***"
