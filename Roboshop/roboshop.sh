@@ -5,7 +5,7 @@
 # 3. Suppose user given wrong input, verify the available components list
 
 # To satisfy 1st condition:
-USER-ID=(id -u)
+USER-ID=$(id -u)
 if [ "${USER-ID}" -ne 0 ]; then
   echo -e "\e[1;31mExecute this script by root user \e[0m"
   exit
