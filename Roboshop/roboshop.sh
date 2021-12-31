@@ -20,7 +20,9 @@ fi
 
 #To satisfy 3rd condition:
 if [ ! -e components/"${component}".sh ]; then
-  echo -e "\e[1;31mInvalid file name entered \e[0m"
+  echo -e "\e[1;31mInvalid file name entered.Available files are cart.sh,catalogue.sh,dispatch.sh,frontend.sh,mongodb.sh.mysql.sh.payment.sh,rabbitmq.sh,redis.sh,shipping.sh,user.sh \e[0m"
   exit
 fi
+
+bash components/"${component}".sh
 
