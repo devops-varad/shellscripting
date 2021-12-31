@@ -19,7 +19,7 @@ if [ -z "${component}" ]; then
 fi
 
 #To satisfy 3rd condition:
-if [ -e components/"${component}".sh ]; then
+if [ ! -e components/"${component}".sh ]; then
   echo -e "\e[1;31mInvalid file name entered \e[0m"
   exit
 fi
