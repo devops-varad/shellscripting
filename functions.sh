@@ -20,3 +20,9 @@ sample1
 # 2.shell built-in commands (ex: history ...)
 # 3.Alias (e.x gp='git pull')
 # 4.functions
+# functions have its own special variables:
+sample2(){
+  echo first values is: $1
+  echo no of variables are: $#
+}
+sample2 abc xyz rrr
