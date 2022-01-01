@@ -34,7 +34,7 @@ sample3(){
   b=100
   }
 #Main Program:
-a=abcde
+a=150
 echo value of b is = ${b}
 
 
