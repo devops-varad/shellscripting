@@ -28,11 +28,12 @@ sample1
 #sample2 abc xyz rrr
 # Variables with Function.
 # 1.You can declare a variable in main program and call the variable it in via function & vice versa. (This means declare the variables in main & access inside function. Also declare the variable inside function & access via main program too....)
+# 2. You can overwrite variable from main program in function & vice versa. (in below example, we declared value a=150 in main program but over write the a value inside the function bt declaring a=800 ....)
 ## Example below
 sample3(){
+    a=800 #Denotes abv 2nd point example
   echo value a in function inside = ${a}
-  a=800
-  b=100
+    b=100
   }
 #Main Program:
 a=150
