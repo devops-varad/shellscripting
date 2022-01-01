@@ -36,5 +36,6 @@ sample3(){
 #Main Program:
 a=150
 echo value of b is = ${b}
+sample3
 
 
