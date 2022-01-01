@@ -31,6 +31,7 @@ sample1
 ## Example below
 sample3(){
   echo value a in function inside = ${a}
+  a=800
   b=100
   }
 #Main Program:
