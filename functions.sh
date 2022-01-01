@@ -21,11 +21,11 @@ sample1
 # 3.Alias (e.x gp='git pull')
 # 4.functions
 # functions have its own special variables:
-sample2(){
-  echo first values is: $1
-  echo no of variables are: $#
-}
-sample2 abc xyz rrr
+#sample2(){
+#  echo first values is: $1
+#  echo no of variables are: $#
+#}
+#sample2 abc xyz rrr
 # Variables with Function.
 # 1.You can declare a variable in main program and call the variable it in via function & vice versa. (This means declare the variables in main & access inside function. Also declare the variable inside function & access via main program too....)
 ## Example below
