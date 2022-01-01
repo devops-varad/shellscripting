@@ -8,7 +8,7 @@ function sample() {
   echo two
 }
 #Method-2
-sample() {
+sample1() {
   echo one
   echo two
 }
