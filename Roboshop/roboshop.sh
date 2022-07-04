@@ -7,7 +7,7 @@
 # To satisfy 1st condition:
 USER_ID=$(id -u)
 if [ "${USER_ID}" -ne 0 ]; then
-  echo -e "\e[1;31mExecute this script by root user \e[0m"
+  echo -e "\e[1;31mExecute this script by sudo privileged  (or) root user \e[0m"
   exit
 fi
 
